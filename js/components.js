@@ -26,7 +26,7 @@ function injectFooter(){
 
 function injectUtils(){
     // WhatsApp float
-    var wa=document.createElement('a');wa.href='https://wa.me/260973297566';wa.target='_blank';wa.className='waf';wa.title='WhatsApp';wa.innerHTML='<i class="fab fa-whatsapp"></i>';document.body.appendChild(wa);
+    var wa=document.createElement('a');wa.href='https://wa.me/260960847099';wa.target='_blank';wa.className='waf';wa.title='WhatsApp';wa.innerHTML='<i class="fab fa-whatsapp"></i>';document.body.appendChild(wa);
     // Back to top
     var bt=document.createElement('button');bt.className='btt';bt.id='btt';bt.innerHTML='<i class="fas fa-arrow-up"></i>';bt.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};document.body.appendChild(bt);
     // Scroll progress
